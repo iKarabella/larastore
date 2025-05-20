@@ -5,7 +5,7 @@ namespace App\Modules\Larastore\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Modules\Larastore\Http\Requests\Market\NotifyAboutAdmissionRequest;
 use App\Modules\Larastore\Http\Requests\Market\SaveCartRequest;
-use App\Modules\Larastore\Models\SubsForAdmission;
+use App\Models\SubsForAdmission;
 
 class MarketActionsController extends Controller
 {

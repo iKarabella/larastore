@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Controllers;
+namespace App\Modules\Larastore\Controllers;
 
 class TestController extends Controller
 {

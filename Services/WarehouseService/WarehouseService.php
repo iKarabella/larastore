@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Larastore\Services;
+namespace App\Modules\Larastore\Services\WarehouseService;
 
 use App\Models\Order;
 use App\Models\ProductOffer;

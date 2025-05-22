@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Market\DTO;
+namespace App\Modules\Larastore\Services\DTO;
 
 
 class ReservationDTO  

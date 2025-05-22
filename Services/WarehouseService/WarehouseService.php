@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Larastore\Services\Market;
+namespace App\Modules\Larastore\Services;
 
 use App\Models\Order;
 use App\Models\ProductOffer;

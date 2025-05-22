@@ -3,12 +3,12 @@
 namespace App\Modules\Larastore\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\Market\OrderCancelRequest;
-use App\Http\Requests\Admin\Market\OrderToAssemblyRequest;
-use App\Http\Requests\Admin\Market\OrderWaitingPaymentRequest;
+use App\Http\Requests\Admin\OrderCancelRequest;
+use App\Http\Requests\Admin\OrderToAssemblyRequest;
+use App\Http\Requests\Admin\OrderWaitingPaymentRequest;
 use App\Models\Order;
-use App\Services\Market\DTO\ReservationDTO;
-use App\Services\Market\WarehouseService;
+use App\Modules\Larastore\Services\DTO\ReservationDTO;
+use App\Modules\Larastore\Services\WarehouseService;
 use App\Services\OrderService;
 use Illuminate\Validation\ValidationException;
 

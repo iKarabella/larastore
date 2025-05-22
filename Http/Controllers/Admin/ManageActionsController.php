@@ -34,7 +34,7 @@ use App\Models\ProductOffer;
 use App\Models\ReservedProduct;
 use App\Models\Shipping;
 use App\Models\WarehouseAct;
-use App\Services\WarehouseService;
+use App\Modules\Larastore\Services\WarehouseService;
 use App\Services\OrderService;
 use App\Services\Shipping\ShippingService;
 use Illuminate\Support\Facades\Storage;

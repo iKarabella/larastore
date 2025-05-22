@@ -3,13 +3,13 @@
 namespace App\Modules\Larastore\Http\Controllers\Admin;
 
 use App\Helpers\RightMenu;
-use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\OrdersListRequest;
-use App\Http\Resources\Admin\DeliveryShortResource;
-use App\Http\Resources\Admin\OfferResource;
-use App\Http\Resources\Admin\OrderResource;
-use App\Http\Resources\Admin\ProductResource;
-use App\Http\Resources\SiteEntitiesValuesResource;
+use App\Modules\Larastore\Http\Controllers\Controller;
+use App\Modules\Larastore\Http\Requests\Admin\OrdersListRequest;
+use App\Modules\Larastore\Http\Resources\Admin\DeliveryShortResource;
+use App\Modules\Larastore\Http\Resources\Admin\OfferResource;
+use App\Modules\Larastore\Http\Resources\Admin\OrderResource;
+use App\Modules\Larastore\Http\Resources\Admin\ProductResource;
+use App\Modules\Larastore\Http\Resources\SiteEntitiesValuesResource;
 use App\Models\CatalogCat;
 use App\Models\Order;
 use App\Models\Product;

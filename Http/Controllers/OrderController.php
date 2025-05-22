@@ -3,8 +3,8 @@
 namespace App\Modules\Larastore\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Modules\Larastore\Http\Requests\Market\CreateOrderRequest;
-use App\Modules\Larastore\Http\Requests\Market\StoreOrderRequest;
+use App\Modules\Larastore\Http\Requests\CreateOrderRequest;
+use App\Modules\Larastore\Http\Requests\StoreOrderRequest;
 use App\Models\Order;
 use App\Models\ProductOffer;
 use App\Modules\Larastore\Services\WarehouseService;

@@ -3,7 +3,7 @@
 namespace App\Modules\Larastore\Http\Controllers\Admin;
 
 use App\Helpers\RightMenu;
-use App\Modules\Larastore\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use App\Modules\Larastore\Http\Requests\Admin\OrdersListRequest;
 use App\Modules\Larastore\Http\Resources\Admin\DeliveryShortResource;
 use App\Modules\Larastore\Http\Resources\Admin\OfferResource;

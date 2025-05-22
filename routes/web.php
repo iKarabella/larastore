@@ -22,7 +22,9 @@ Route::middleware('auth')->group(function () {
     Route::post('/market/order/store', [OrderController::class, 'store'])->name('market.order.store');
     Route::get('/market/order', [OrderController::class, 'startPage'])->name('market.create_order');
     Route::post('/market/order', [OrderController::class, 'startPagePost']);
-    
+});
+
+Route::middleware('market')->group(function(){
     Route::get('/market/manage', [ManageController::class, 'index'])->name('market.manage');
     Route::get('/market/manage/statistic', [ManageController::class, 'statistic'])->name('market.manage.statistic');
     Route::get('/market/manage/catalog', [ManageController::class, 'catalog'])->name('market.manage.catalog');

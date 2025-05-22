@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Larastore\Http\Resources\Market;
+namespace App\Modules\Larastore\Http\Resources;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;

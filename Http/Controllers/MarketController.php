@@ -3,10 +3,10 @@
 namespace App\Modules\Larastore\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Modules\Larastore\Http\Requests\Market\SaveCartRequest;
-use App\Modules\Larastore\Http\Resources\Market\BasketListResorce;
-use App\Modules\Larastore\Http\Resources\Market\ProductResource;
-use App\Modules\Larastore\Http\Resources\Market\ProductsListResource;
+use App\Modules\Larastore\Http\Requests\SaveCartRequest;
+use App\Modules\Larastore\Http\Resources\BasketListResorce;
+use App\Modules\Larastore\Http\Resources\ProductResource;
+use App\Modules\Larastore\Http\Resources\ProductsListResource;
 use App\Models\CatalogCat;
 use App\Models\Product;
 use App\Models\ProductOffer;

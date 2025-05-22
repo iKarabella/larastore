@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Larastore\Http\Resources\Market;
+namespace App\Modules\Larastore\Http\Resources;
 
 use Barryvdh\Reflection\DocBlock\Description;
 use Illuminate\Http\Request;

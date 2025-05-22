@@ -3,9 +3,9 @@
 namespace App\Modules\Larastore\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\OrderCancelRequest;
-use App\Http\Requests\Admin\OrderToAssemblyRequest;
-use App\Http\Requests\Admin\OrderWaitingPaymentRequest;
+use App\Modules\Larastore\Http\Requests\Admin\OrderCancelRequest;
+use App\Modules\Larastore\Http\Requests\Admin\OrderToAssemblyRequest;
+use App\Modules\Larastore\Http\Requests\Admin\OrderWaitingPaymentRequest;
 use App\Models\Order;
 use App\Modules\Larastore\Services\DTO\ReservationDTO;
 use App\Modules\Larastore\Services\WarehouseService;

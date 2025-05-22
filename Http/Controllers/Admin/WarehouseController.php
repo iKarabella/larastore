@@ -4,10 +4,10 @@ namespace App\Modules\Larastore\Http\Controllers\Admin;
 
 use App\Helpers\RightMenu;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\StoreWarehouseReceiptRequest;
-use App\Http\Requests\Admin\StoreWarehouseRequest;
-use App\Http\Resources\Admin\OrderResource;
-use App\Http\Resources\Admin\WarehouseResource;
+use App\Modules\Larastore\Http\Requests\Admin\StoreWarehouseReceiptRequest;
+use App\Modules\Larastore\Http\Requests\Admin\StoreWarehouseRequest;
+use App\Modules\Larastore\Http\Resources\Admin\OrderResource;
+use App\Modules\Larastore\Http\Resources\Admin\WarehouseResource;
 use App\Models\Order;
 use App\Models\ProductOffer;
 use App\Models\StocksBalance;

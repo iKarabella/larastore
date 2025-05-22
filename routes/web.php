@@ -1,9 +1,9 @@
 <?php
 
-use App\Modules\Larastore\Http\Controllers\Admin\Market\ManageActionsController;
-use App\Modules\Larastore\Http\Controllers\Admin\Market\ManageController;
-use App\Modules\Larastore\Http\Controllers\Admin\Market\OrderStatusController;
-use App\Modules\Larastore\Http\Controllers\Admin\Market\WarehouseController;
+use App\Modules\Larastore\Http\Controllers\Admin\ManageActionsController;
+use App\Modules\Larastore\Http\Controllers\Admin\ManageController;
+use App\Modules\Larastore\Http\Controllers\Admin\OrderStatusController;
+use App\Modules\Larastore\Http\Controllers\Admin\WarehouseController;
 
 use App\Modules\Larastore\Http\Controllers\MarketActionsController;
 use App\Modules\Larastore\Http\Controllers\MarketController;

@@ -3,6 +3,7 @@
 namespace App\Modules\Larastore\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Route;
 
 class LarastoreServiceProvider extends ServiceProvider
 {
@@ -14,7 +15,8 @@ class LarastoreServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->loadMigrationsFrom(__DIR__ . '../database/migrations');
         }
-
-        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
+        Route::middleware('web')
+             ->namespace('App\Modules\Larastore\routes')
+             ->group(__DIR__ . '/../routes/web.php');
     }
 }

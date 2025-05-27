@@ -83,6 +83,7 @@ class OrderController extends Controller
                 'name'=>"{$offer->product->title}, {$offer->title}",
                 'price'=>$offer->price,
                 'quantity'=>$position['quantity'],
+                'measure'=>$offer->product->measure,
                 'amount'=>round($position['quantity']*$offer->price, 2)
             ];
         }

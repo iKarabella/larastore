@@ -2,7 +2,6 @@
 
 namespace App\Modules\Larastore\Http\Resources;
 
-use Barryvdh\Reflection\DocBlock\Description;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 

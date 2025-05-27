@@ -2,7 +2,7 @@
 
 namespace App\Modules\Larastore\Http\Resources\Admin;
 
-use App\Modules\Larastore\Http\Resources\Market\ProductMediaResource;
+use App\Modules\Larastore\Http\Resources\ProductMediaResource;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;

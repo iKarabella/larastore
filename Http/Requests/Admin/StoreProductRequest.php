@@ -30,7 +30,7 @@ class StoreProductRequest extends FormRequest
         return [
             'id'=>'numeric|nullable|exists:products',
             'title'=>'string|required|min:5',
-            'link'=>['string','required', Rule::unique('products')->ignore($this->id)],
+            'link'=>['string','required', Rule::unique('products', 'link')->ignore($this->id, 'id')],
             'short_description'=>'string|required|min:5',
             'description'=>'string|required|min:5',
             'visibility'=>'boolean',

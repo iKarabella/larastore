@@ -9,7 +9,7 @@ use App\Modules\Larastore\Http\Resources\Admin\DeliveryShortResource;
 use App\Modules\Larastore\Http\Resources\Admin\OfferResource;
 use App\Modules\Larastore\Http\Resources\Admin\OrderResource;
 use App\Modules\Larastore\Http\Resources\Admin\ProductResource;
-use App\Modules\Larastore\Http\Resources\SiteEntitiesValuesResource;
+use App\Http\Resources\SiteEntitiesValuesResource;
 use App\Models\CatalogCat;
 use App\Models\Order;
 use App\Models\Product;
